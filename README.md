@@ -2,11 +2,21 @@
 # REACT
 ##
 ```bash
+npm install -g create-react-app
+create-react-app my-app
+#两条命令等价下面
 npx create-react-app my-app
+#启动项目
 npm start
 ```
     
-done
+运行build
+```bash
+npm run build
+#安装pushstate-server
+npm install -g serve
+serve -s build
+
 ```
 
 ## 教程：井字棋游戏
