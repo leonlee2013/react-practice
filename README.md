@@ -9,6 +9,15 @@ npx create-react-app my-app
 #启动项目
 npm start
 ```
+# 更快的脚手架
+
+```bash
+npm create vite@latest
+
+cd my-vite-react-js
+npm install
+npm run dev
+```
     
 运行build
 ```bash
