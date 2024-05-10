@@ -5,18 +5,31 @@ import './index.css';
 // import Component from './ComponentUseState';
 import Component from './ComponentUseReducer';
 // import Component from './ComponentUseReactRedux';
-import reportWebVitals from './reportWebVitals';
-import ComponentUseReducer from "./ComponentUseReducer";
+
+// import Component from "./components/counter";
+// import { Provider } from "react-redux";
+// import store from "./store/index";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <Component />
+      <Component />
+      <Component />
+      <Component />
+      <Component />
   </React.StrictMode>
 );
-
+//
+// root.render(
+//     <Provider store={store}>p
+//             <Component />
+//             <Component />
+//             <Component />
+//     </Provider>
+// );
+//
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
 

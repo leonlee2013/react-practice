@@ -13,9 +13,8 @@ const reducer = (state, action) => {
     }
 }
 
-const ComponentUseReducerChild = () => {
+const ComponentUseReducer = () => {
     const [state, dispatch] = useReducer(reducer, initialState)
-
     const { num } = state
     return (
         <div>
@@ -27,14 +26,5 @@ const ComponentUseReducerChild = () => {
     );
 };
 
-const ComponentUseReducer = () => {
-    return (
-        <div>
-            <ComponentUseReducerChild />
-            <ComponentUseReducerChild />
-            <ComponentUseReducerChild />
-        </div>
-    );
-};
 
 export default ComponentUseReducer;
