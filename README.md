@@ -18,6 +18,19 @@ cd my-vite-react-js
 npm install
 npm run dev
 ```
+
+https://umijs.org/docs/guides/getting-started
+```bash
+mkdir /my-umi-app && cd /my-umi-app
+#通过官方工具创建项目PNPM
+pnpm dlx create-umi@latest
+#启动项目
+pnpm dev 
+#启用 Prettier 做项目代码的自动格式化
+pnpm umi g
+#部署发布
+pnpm build
+```
     
 运行build
 ```bash
