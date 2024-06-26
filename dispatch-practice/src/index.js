@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 // import Component from './ComponentUseState';
-import Component from './ComponentUseReducer';
-// import Component from './ComponentUseReactRedux';
+// import Component from './ComponentUseReducer';
+import Component from './ComponentUseReactRedux';
 
 // import Component from "./components/counter";
 // import { Provider } from "react-redux";

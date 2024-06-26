@@ -1,5 +1,6 @@
 import React from "react";
-import { createStore } from "redux";
+// import { createStore } from "redux";
+import { configureStore } from "@reduxjs/toolkit";
 import { Provider, useSelector, useDispatch } from "react-redux";
 
 const initialState = { num: 0 };
@@ -16,7 +17,11 @@ const reducer = (state, action) => {
     }
 };
 
-const store = createStore(reducer, initialState);
+// const store = createStore(reducer, initialState);
+const store = configureStore({
+    reducer: reducer,
+    preloadedState: initialState
+});
 
 const ComponentUseReactRedux = () => {
     return (
